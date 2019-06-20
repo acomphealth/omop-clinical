@@ -8,4 +8,4 @@ WORKDIR /omop
 
 COPY ddl/postgres/ /omop/
 
-CMD psql -h host.docker.internal -U postgres -f omop_standard_ddl.sql && psql -h host.docker.internal -U postgres -f omop_standard_idx.sql && psql -h host.docker.internal -U postgres -f omop_standard_constraint.sql
+CMD psql -h host.docker.internal -U postgres -f create_omop_schema.sql && psql -h host.docker.internal -U postgres -f omop_standard_ddl.sql && psql -h host.docker.internal -U postgres -f omop_standard_idx.sql && psql -h host.docker.internal -U postgres -f omop_standard_constraint.sql

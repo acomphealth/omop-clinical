@@ -34,7 +34,7 @@ author:  Patrick Ryan, Clair Blacketer
 
 
 *************************/
-
+SET search_path TO omop;
 
 /************************
 *************************

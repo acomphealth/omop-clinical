@@ -33,6 +33,7 @@ Authors:  Patrick Ryan, Christian Reich, Clair Blacketer
 
 
 *************************/
+SET search_path TO omop;
 
 
 /************************

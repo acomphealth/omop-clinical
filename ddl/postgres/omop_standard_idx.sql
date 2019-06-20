@@ -35,6 +35,7 @@ author:  Patrick Ryan, Clair Blacketer
 description:  These primary keys and indices are considered a minimal requirement to ensure adequate performance of analyses.
 
 *************************/
+SET search_path TO omop;
 
 
 /************************
