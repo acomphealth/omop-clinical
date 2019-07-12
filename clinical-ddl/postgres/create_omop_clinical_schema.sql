@@ -1,0 +1,1 @@
+CREATE SCHEMA omop_clinical AUTHORIZATION postgres

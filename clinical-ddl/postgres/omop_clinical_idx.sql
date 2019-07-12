@@ -1,5 +1,5 @@
 /*********************************************************************************
-# Copyright 2014 Observational Health Data Sciences and Informatics
+# Copyright 2019 Association for Computational Health
 #
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,25 +16,16 @@
 ********************************************************************************/
 
 /************************
-
- ####### #     # ####### ######      #####  ######  #     #            #####        ###      ######  #    #      ##       ###
- #     # ##   ## #     # #     #    #     # #     # ##   ##    #    # #     #      #   #     #     # #   #      #  #       #  #    # #####  #  ####  ######  ####
- #     # # # # # #     # #     #    #       #     # # # # #    #    # #           #     #    #     # #  #        ##        #  ##   # #    # # #    # #      #
- #     # #  #  # #     # ######     #       #     # #  #  #    #    # ######      #     #    ######  ###        ###        #  # #  # #    # # #      #####   ####
- #     # #     # #     # #          #       #     # #     #    #    # #     # ### #     #    #       #  #      #   # #     #  #  # # #    # # #      #           #
- #     # #     # #     # #          #     # #     # #     #     #  #  #     # ###  #   #     #       #   #     #    #      #  #   ## #    # # #    # #      #    #
- ####### #     # ####### #           #####  ######  #     #      ##    #####  ###   ###      #       #    #     ###  #    ### #    # #####  #  ####  ######  ####
-
-
-postgresql script to create the required primary keys and indices within the OMOP common data model, version 6.0
-
-last revised: 30-Aug-2017
-
-author:  Patrick Ryan, Clair Blacketer
-
-description:  These primary keys and indices are considered a minimal requirement to ensure adequate performance of analyses.
-
+OMOP Clinical (C6.0), Adapted from OMOP common data model version 6.0
+(OMOP CDM v6 Copyright 2018-08 OHDSI, Apache License, Version 2.0)
 *************************/
+
+/************************
+postgresql script to create the required primary keys and indices within the OMOP Clinical v6.0
+last revised: 2019-06-23
+Authors: Wade Schulz
+*************************/
+
 SET search_path TO omop;
 
 
